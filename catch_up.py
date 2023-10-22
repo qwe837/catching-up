@@ -21,6 +21,7 @@ while run:
     for e in event.get():
         if e.type == QUIT: 
             run = False
+            
     keys_pressed = key.get_pressed()
     if keys_pressed[K_LEFT] and x1 > 5 :
         x1 -= speed
